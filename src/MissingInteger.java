@@ -15,6 +15,12 @@ public class MissingInteger {
         return answer;
     }
 
+    public int solution2(int[] A) {
+        return 0;
+        //1이 있는지 체크하고 없으면 return 1;
+        //그 후에 위에 처럼 하는게 정답이지 않을까...
+    }
+
     public static void main(String[] args) {
         int[] A = new int[]{-1000000, 1000000};
         MissingInteger o = new MissingInteger();
