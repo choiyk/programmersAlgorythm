@@ -25,7 +25,7 @@ public class BiggestColorSpots {
     }
 
     private void compute(int color, int[][] map, int i, int j, int cols, int rows) {
-        if(map[i][j] == -1) return; //이미 지났다면 검사가 다 끝났을테니...? 확신할 수 없어...ㅎ
+        //if(map[i][j] == -1) return; //이미 지났다면 음수가 되어 어차피 if문을 타지 않음
 
         map[i][j] *= -1;
         currentColorSpot++;
