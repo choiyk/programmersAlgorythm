@@ -1,4 +1,4 @@
-package leetcode.plan1;
+package leetcode.two;
 
 public class SearchInsertPosition {
 
