@@ -1,8 +1,7 @@
 package leetcode;
 
+import leetcode.one.Combination;
 import org.junit.jupiter.api.Test;
-
-import static org.junit.jupiter.api.Assertions.*;
 
 class CombinationTest {
 

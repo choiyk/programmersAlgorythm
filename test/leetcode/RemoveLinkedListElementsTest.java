@@ -1,8 +1,8 @@
 package leetcode;
 
+import leetcode.one.ListNode;
+import leetcode.one.RemoveLinkedListElements;
 import org.junit.jupiter.api.Test;
-
-import static org.junit.jupiter.api.Assertions.*;
 
 class RemoveLinkedListElementsTest {
 
