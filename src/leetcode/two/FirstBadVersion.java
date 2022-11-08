@@ -7,7 +7,7 @@ public class FirstBadVersion {
         int endIdx = n;
 
         while(startIdx <= endIdx) {
-            final int middleIdx = (startIdx + endIdx) / 2;
+            final int middleIdx = startIdx + ((endIdx - startIdx) / 2);
 
             //true이면 하위 그룹 검색
             if(isBadVersion(middleIdx)) {
