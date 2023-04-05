@@ -97,4 +97,26 @@ class MyArrayDequeTest {
 
         assertThrows(IllegalArgumentException.class, () -> {deque.poll();});
     }
+
+    @Test
+    public void test() {
+        MyArrayDeque deque = new MyArrayDeque(5);
+
+        deque.offer(3);
+        deque.offer(5);
+        deque.offer(1);
+        assertEquals(3, deque.size());
+
+        deque.poll();
+        deque.poll();
+        deque.poll();
+        assertEquals(0, deque.size());
+
+        deque.offer(3);
+        deque.offer(5);
+        deque.offer(1);
+        deque.offer(5);
+        deque.offer(1);
+        assertEquals(5, deque.size());
+    }
 }
